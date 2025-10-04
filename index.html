@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasto Restuarant</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- header with mediaa handler -->
+  <header class="text-center p-3 bg-dark-red text-light">
+    <h1>Pasto</h1>
+    <p>Authentic Italian Cuisine</p>
+  </header>
+
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3c1b0f;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Pasto</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <section class="container my-4">
+    <h2 class="text-center">Specials</h2>
+    <div class="specials">
+      <div class="box">Pasta al Pomodoro</div>
+      <div class="box">Pizza Margherita</div>
+      <div class="box">Tiramisu</div>
+    </div>
+  </section>
+
+  <!--Bootstrap Grid -->
+  <section id="menu" class="container my-5">
+    <h2 class="text-center mb-4">Our Menu</h2>
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+        <div class="card h-100 shadow">
+          <img src="images/past.jfif" class="card-img-top" alt="Pasta">
+          <div class="card-body">
+            <h5 class="card-title">Spaghetti Carbonara</h5>
+            <p class="card-text">Classic Roman pasta with pancetta, eggs, and pecorino.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+        <div class="card h-100 shadow">
+          <img src="images/pizza.jfif" class="card-img-top" alt="Pizza">
+          <div class="card-body">
+            <h5 class="card-title">Pizza Margherita</h5>
+            <p class="card-text">Fresh mozzarella, basil, and tomato sauce.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+        <div class="card h-100 shadow">
+          <img src="images/tiramisu.jfif" class="card-img-top" alt="Tiramisu">
+          <div class="card-body">
+            <h5 class="card-title">Tiramisu</h5>
+            <p class="card-text">Coffee-flavored Italian dessert with mascarpone cream.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about" class="container my-5">
+    <h2 class="text-center">About Us</h2>
+    <div>
+      <p>
+        Welcome to Pasto, a cozy Italian restaurant where every dish is made with passion and tradition.
+        From homemade pasta to wood-fired pizza, we bring the authentic flavors of Italy right to your table.
+        Our chefs use only the freshest ingredients to craft meals that celebrate family, love, and good taste.
+
+        Whether you're here for a romantic dinner, a family gathering, or just a cup of espresso —
+        Pasto is your little piece of Italy in the heart of the city.</p>
+    </div>
+  </section>
+
+  <!--Combined Responsive Layout -->
+  <main class="container my-5">
+    <div class="row">
+
+      <div class="col-lg-8">
+        <h3 class="text-center">Discover Italy on a Plate</h3>
+        <p>At Pasto, we serve homemade Italian dishes crafted with love and authentic ingredients.</p>
+      </div>
+
+      <aside class="col-lg-4 bg-light-cream p-3 rounded" id="contact">
+        <h4>Contact Info</h4>
+        <p>Email: info@pasto.com</p>
+        <p>Phone: +7 700 123 4567</p>
+        <p>Address: Astana, Kazakhstan</p>
+      </aside>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center p-3 mt-4 bg-dark-red text-light">
+    <p>&copy; 2025 Pasto Italian Restaurant</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
